@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: montserrat;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #1B171E;
+    /* background-image: linear-gradient(239.42deg, #E0FFE7 0%, #E78CAE 48.54%, #BDCDFF 100%); */
+}
+
+h1 {
+    position: absolute;
+    width: 97px;
+    height: 24px;
+    left: calc(50% - 100px/2 + 0.5px);
+    top: 45px;
+    font-weight: medium;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    opacity: 0.5;
+}
+
+
+h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-style: medium;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+p {
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card {
+    width: 280px;
+    height: 607px;
+    left: 150px;
+    top: 146px;
+    
+    background: #000000;
+    box-shadow: 20px 40px 80px rgba(104, 130, 255, 0.1), 40px 50px 80px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+
+.logoBox {
+    
+    
+}
