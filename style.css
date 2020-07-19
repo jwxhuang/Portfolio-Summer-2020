@@ -9,7 +9,7 @@
 html {
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 body {
@@ -64,17 +64,47 @@ p {
 }
 
 .card {
+    position: relative;
     width: 280px;
     height: 607px;
     left: 150px;
     top: 146px;
-    
     background: #000000;
     box-shadow: 20px 40px 80px rgba(104, 130, 255, 0.1), 40px 50px 80px rgba(0, 0, 0, 0.2);
     border-radius: 25px;
 }
 
 .logoBox {
+    position: absolute;
+    top: 245px;
+    left:82px;
     
-    
+}
+
+.ProjectTitle{
+    width: 200px;
+    position: absolute;
+    top: 400px;
+    left:40px;
+}
+
+.Description{
+    width: 200px;
+    position: absolute;
+    top: 450px;
+    left:40px;
+}
+
+.Role{
+    width: 200px;
+    position: absolute;
+    top: 525px;
+    left:40px;
+}
+
+.Platform{
+    width: 200px;
+    position: absolute;
+    top: 545px;
+    left:40px;
 }
